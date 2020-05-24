@@ -55,7 +55,7 @@ public class IndexController {
         }
     }
 
-    @PostMapping(value = "/login")
+    @PostMapping(value = " ")
     public String login(String username, String password, String site,
                         HttpServletRequest request, HttpSession session) {
         if (username == null || password == null) {
